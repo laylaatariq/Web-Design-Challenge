@@ -1,0 +1,32 @@
+#head{
+	font-size:25px;
+	font-weight: bold;
+}
+.ul{
+	float:left;
+	text-align:right;
+}
+
+#navbarDropdown, #homepage, #comparisonpage, #datapage{
+	color: white;
+	font-size:15px;
+}
+
+#navbarDropdown:hover, #homepage:hover, #comparisonpage:hover, #datapage:hover{
+	background-color: red;
+}
+
+.box{
+	background-color: lightgrey;
+	width:500px;
+	padding:25px;
+	top: 1000;
+}
+
+.row{
+	background-color:lightgrey;
+	top:40;
+	width:700px;
+	padding-left:10px;
+	margin-left:10px;
+}
