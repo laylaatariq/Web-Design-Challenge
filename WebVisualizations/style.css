@@ -22,19 +22,22 @@
 
 #summary{
 	background-color:lightgrey;
-	top:40;
-	padding-left:10px;
-	margin-left:50px;
-	padding-bottom:10px;
-	padding-top:10px;
-	padding-right:10px;
+	padding-left:40px;
+	margin-left:30px;
+	padding-bottom:5px;
+	padding-top:50px;
+	padding-right:40px;
 	align-content:center;
-	height:500px;
+
+}
+
+.para{
+		font-size:large;
 }
 
 #MaxTemp{
 	float:left;
-	width:250px;
+	width:300px;
 	height:250px;
 	margin-right:15px;
 	margin-bottom:10px;
@@ -42,43 +45,49 @@
 
 #display{
 	background-color:lightgrey;
-	padding-left:5px;
+	padding-left:10px;
 	margin-left:10px;
-	padding-bottom:5px;
-	padding-top:5px;
-	padding-right:5px;
+	padding-bottom:20px;
+	padding-top:20px;
+	padding-right:0px;
+	align-content:center;
 }
 
 #Temp{
 	float:left;
 	width:250px;
-	height:150px;
+	height:200px;
 	margin-right:15px;
 	margin-bottom:10px;
+	padding-left:7px;
 }
 
 #humidity{
 	float:right;
 	width:250px;
-	height:150px;
+	height:200px;
 	margin-right:15px;
 	margin-bottom:10px;
+	padding-left:7px;
 }
 
 #cloud{
 	float:left;
 	width:250px;
-	height:150px;
+	height:200px;
 	margin-right:15px;
 	margin-bottom:10px;
+	padding-left:7px;
+	
 }
 
 #windSpeed{
 	float:right;
 	width:250px;
-	height:150px;
+	height:200px;
 	margin-right:15px;
 	margin-bottom:10px;
+	padding-left:7px;
 }
 
 .column {

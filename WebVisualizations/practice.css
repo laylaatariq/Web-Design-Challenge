@@ -90,6 +90,11 @@
 	margin-bottom:10px;
 }
 
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
 .footer{
 	position: fixed;
 	left: 0;
@@ -103,4 +108,6 @@
 }
 
 
-
+.img:hover{
+	display:block;
+}
