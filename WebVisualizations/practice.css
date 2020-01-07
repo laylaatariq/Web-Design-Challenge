@@ -16,20 +16,24 @@
 	background-color: red;
 }
 
-.container-fluid{
-	grid-gap:10px;
-}
 
 #summary{
 	background-color:lightgrey;
 	top:40;
 	padding-left:10px;
-	margin-left:20px;
-	padding-bottom:10px;
+	margin:0px;
+	padding-bottom:20px;
 	padding-top:10px;
 	padding-right:10px;
 	align-content:center;
-	margin:0;
+	position:relative;
+	float:left;
+}
+
+#visual{
+	position:relative;
+	float:right;
+	height:600px;
 }
 
 #MaxTemp{
@@ -38,6 +42,7 @@
 	height:250px;
 	margin-right:15px;
 	margin-bottom:10px;
+	padding-bottom:20ps;
 }
 
 .visual{
@@ -73,6 +78,13 @@
 	margin-bottom:10px;
 }
 
+#windSpeed{
+	float:right;
+	width:100px;
+	height:100px;
+	margin-right:15px;
+	margin-bottom:10px;
+}
 .column {
   float: left;
   padding: 5px;
