@@ -68,55 +68,55 @@
 	<br></br>
 	
 	<!-- Creating a container for the summary-->
-	<div class="container-fluid">
+	<div class="container -fluid">
 		<div class="row">
-			<div class="col-md-7" id="description">
 			
-				<!--Header for the body of summary-->
-				<h2>Humidity</h2>
-
-				<!--Creating a line between the heading and paragraph-->
-				<hr></hr>
-					
-					<!--Placing the image-->
-					<img class="img1" src="Resources/assets/images/Fig2.png">
-					<!--Adding the visualin the body wrapped with the summary-->
-					<p class="para">As we approach the equator the humidity decreases. It starts getting dense as we move to the north of the equator. Humidity starts getting dense
-					as you north from the equator. Most humid cities during this year can be found to the north east of the equator. The cities situated farthest away from the equator
-					has a humidity level of 100%, but there count is less compared to the cities above 60% humidity level.</p>
-			</div>
-		
 		<!--Second box for visuals-->
-		<!-- <div class="row"> -->
-		<div class="col-md-4" id="visual">
-		
-			<!--Heading-->
-			<h2>Visualization</h2>
-			<hr></hr>
-			<div class="row">
-			<div class="col-md-6">
-			<a href="MaxTemp.html">
-			<img  src="Resources/assets/images/Fig1.png" class="temp" title="Maximum Temperature"></a>
-			</div>
-			<div class="col-md-6">
-			<a href="humidity.html">
-			<img src="Resources/assets/images/Fig2.png" class="Hum" title="Humidity"></a>
-			</div>
-			</div>
-			<div class="row">
-			<div class="col-md-6">
-			<a href="cloudiness.html">
-			<img src="Resources/assets/images/Fig3.png" class="temp" title="Cloudinessloudiness"></a>
-			</div>
-			<div class="col-md-6">
-			<a href="wind.html">
-			<img src="Resources/assets/images/Fig4.png" class="Hum" title="WindSpeed"></a>
-			</div>
-			</div>
+			<div class="col-md-9" id="comparison">
+			
+				<!--Heading-->
+				<h2>Comparison: Latitude vs X</h2>
+				<hr></hr>
+				<p>Click any plot to get in-depth analysis.
+				
+				<!-- Row one -->
+				<div class="row">
+				
+					<!-- Figure 1 -->
+					<div class="col-md-6">
+						<h5>vs. Max Temperature</h5>
+						<a href="MaxTemp.html">
+						<img src="Resources/assets/images/Fig1.png" id="Temp" title="Maximum Temperature"></a>
+					</div>
+					
+					<!-- Figure 2 -->
+					<div class="col-md-6">
+						<h5>vs. Humidity</h5>
+						<a href="humidity.html">
+						<img src="Resources/assets/images/Fig2.png" id="humidity" title="Humidity"></a>
+					</div>
+				</div>
+				
+				<!-- Row two -->
+				<div class="row">
+				
+					<!-- Figure3 -->
+					<div class="col-md-6">
+						<h5>vs. Cloudiness</h5>
+						<a href="cloudiness.html">
+						<img src="Resources/assets/images/Fig3.png" id="cloud" title="Cloudinessloudiness"></a>
+					</div>
+					
+					<!-- Figure 4 -->
+					<div class="col-md-6">
+						<h5>vs. WindSpeed</h5>
+						<a href="wind.html">
+						<img src="Resources/assets/images/Fig4.png" id="windSpeed" title="WindSpeed"></a>
+					</div>
+				</div>
 			</div>
 			
-		</div>	
-
+		</div>
 	</div>
 
 	<!--Footer-->
