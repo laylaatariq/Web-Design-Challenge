@@ -45,8 +45,8 @@
             Dropdown
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="MaxTemp.html">Max Temperature</a>
-            <a class="dropdown-item" href="humidity.html">Humidity</a>
+            <a class="dropdown-item" href="#">Max Temperature</a>
+            <a class="dropdown-item" href="">Humidity</a>
             <a class="dropdown-item" href="#">Cloudiness</a>
             <a class="dropdown-item" href="#">Wind Speed</a>
           </div>
@@ -68,29 +68,28 @@
 	<br></br>
 	
 	<!-- Creating a container for the summary-->
+	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-7" id="summary">
+			<div class="col-md-7" id="description">
 			
 				<!--Header for the body of summary-->
-				<h2>Summary: Latitude vs. X</h2>
+				<h2>Max Temperature</h2>
 
 				<!--Creating a line between the heading and paragraph-->
 				<hr></hr>
 					
+					<!--Placing the image-->
+					<img class="img1" src="Resources/assets/images/Fig2.png">
 					<!--Adding the visualin the body wrapped with the summary-->
-					<p class="para"><img src="Resources/assets/images/Fig1.png" id="MaxTemp">The purpose of this project was to analyze how weather changes as you get closer to the equator. 
-					To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset over 500 cities.</p>
-					
-					<!--Second paragraph-->
-					<p class="para">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, 
-					wind speed, and humidity. This site provides the source data and visualizations created as a part of the analysis, as well as explanations and descriptions of 
-					any trends and corelations witnessed.</p>
+					<p class="para">As exppected, the weather becomes significantly warmer as one approaches the equator (0 Deg Latitude). More interestingly, however, is tha fact 
+					that the sourthern hemisphere tends to the warmer this time of the year than the northern hemisphere. This may be due the tilt of the earth at the time of the 
+					year this data was gathered.</p>
 				<!-- </hr> -->
 			</div>
 		
 		<!--Second box for visuals-->
 		<!-- <div class="row"> -->
-		<div class="col-md-4" id="display">
+		<div class="col-md-4" id="visual">
 		
 			<!--Heading-->
 			<h2>Visualization</h2>
@@ -98,7 +97,7 @@
 			<div class="row">
 			<div class="col-md-6">
 			<a href="#">
-			<img src="Resources/assets/images/Fig1.png" id="Temp" title="Maximum Temperature"></a>
+			<img  src="Resources/assets/images/Fig1.png" id="Temp" title="Maximum Temperature"></a>
 			</div>
 			<div class="col-md-6">
 			<a href="#">
@@ -116,9 +115,7 @@
 			</div>
 			</div>
 			
-		</div>
-		<!-- </div> -->
-	
+		</div>	
 
 	</div>
 

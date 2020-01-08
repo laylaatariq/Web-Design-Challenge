@@ -16,6 +16,7 @@
 	background-color: red;
 }
 
+
 #summary{
 	background-color:lightgrey;
 	padding-left:40px;
@@ -63,7 +64,6 @@
 	width:250px;
 	height:200px;
 	margin-right:15px;
-	margin-bottom:10px;
 	padding-left:7px;
 }
 
@@ -113,21 +113,12 @@
 	align-content:center;
 }
 
-.temp{
-	float:left;
-	width:250px;
-	height:200px;
-	margin-right:15px;
-	margin-bottom:10px;
-	padding-left:7px;
-}
-
-.Hum{
+.fig{
 	float:right;
-	width:250px;
-	height:200px;
-	margin-right:15px;
-	padding-left:7px;
+	width:50%;
+	height:50%;
+	margin-bottom:10px;
+	padding-left:20px;
 }
 
 .footer{

@@ -90,10 +90,7 @@
 	margin-bottom:10px;
 }
 
-.img__wrap:hover .img__description {
-  visibility: visible;
-  opacity: 1;
-}
+
 
 .footer{
 	position: fixed;
@@ -105,9 +102,4 @@
 	text-align: center;
 	border-top:5px solid red;
 	height:50px;
-}
-
-
-.img:hover{
-	display:block;
 }
