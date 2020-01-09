@@ -1,10 +1,7 @@
-#head{
+.navbar-brand{
 	font-size:25px;
 	font-weight: bold;
-}
-.ul{
-	float:left;
-	text-align:right;
+	padding-left:30px;
 }
 
 #navbarDropdown, #homepage, #comparisonpage, #datapage{
@@ -133,5 +130,20 @@
 	height:50px;
 }
 
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+}
+
+@media only screen and(max-width: 992px){
+	.navbar li{
+		padding-left:10px;
+	}
+	
+	#navbarDropdown, #homepage, #comparisonpage, #datapage{
+		font-weight:bold;
+	}
+}
 
 
